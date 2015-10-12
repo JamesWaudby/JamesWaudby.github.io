@@ -1,0 +1,142 @@
+body {
+  background: #e9eaed;
+}
+
+.header {
+  width:100%;
+  text-align: center;
+  padding: 1.5em;
+}
+
+.header h1 {
+  color: #ffffff;
+  font-family: 'SanFranciscoDisplayBold',Arial,Tahoma,Verdana;
+  font-size: 24pt;
+  margin-top: 40px;
+  line-height: 30px;
+}
+
+.header h4 {
+  color: #ffffff;
+}
+
+.header a {
+  color: #EEEEEE;
+}
+
+.z-depth-1 {
+      box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.blue {
+  background-color: #3F51B5 !important;
+}
+
+
+.green {
+  background-color: #139F5A !important;
+}
+
+.red {
+  background-color: #DD4C40 !important;
+}
+
+.navbar {
+  background: transparent;
+  border: none;
+}
+
+.navbar-default .navbar-nav {
+  padding-bottom: 20px;
+}
+
+.navbar-default .navbar-nav>li {
+  -webkit-transition: background-color .3s;
+  -moz-transition: background-color .3s;
+  -o-transition: background-color .3s;
+  -ms-transition: background-color .3s;
+  transition: background-color .3s;
+  display: inline-flex;
+}
+
+.navbar-default .navbar-nav>li:hover {
+  background-color: #303F9F;
+}
+
+.navbar-default .navbar-nav>li>a {
+  position: relative;
+  color: #fff;
+  letter-spacing: -1px;
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 1.7em;
+  margin: 0 25px;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: #ffffff;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.hero-text {
+  margin-bottom: 1em;
+}
+
+.sections {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-top: -40px;
+}
+
+.sections .card {
+  margin-right: -15px;
+  margin-left: -15px;
+  background: #fff;
+  margin-bottom: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.card .card-header {
+  min-height:50px;
+  margin-bottom: 25px;
+}
+
+.card .card-header {
+  position: relative;
+  min-height: 1px;
+  margin-left: 10%;
+  font-family: 'SanFranciscoDisplayBold',Arial,Tahoma,Verdana;
+  color: #000;
+}
+
+.card .card-body {
+  padding-bottom: 10px;
+}
+
+.card .card-body, .card .card-footer {
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align:justify;
+}
+
+.card .card-footer {
+  color: #999;
+}
+
+.card .card-date, .card .card-location {
+    padding: 0;
+}
+
+.card .card-date i, .card .card-location i {
+  margin-right: 5px;
+}
+
+.bold {
+  font-weight: bold;
+}
