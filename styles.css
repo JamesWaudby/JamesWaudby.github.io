@@ -122,12 +122,12 @@ body {
 
 .card .card-body {
   padding-bottom: 10px;
+  text-align:justify;
 }
 
 .card .card-body, .card .card-footer {
   margin-left: 10%;
   margin-right: 10%;
-  text-align:justify;
 }
 
 .card .card-footer {
@@ -140,6 +140,10 @@ body {
 
 .card .card-date i, .card .card-location i {
   margin-right: 5px;
+}
+
+.card .card-date {
+  text-align: right;
 }
 
 .bold {
