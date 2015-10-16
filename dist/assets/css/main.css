@@ -1,0 +1,139 @@
+body {
+  background: #e9eaed; }
+
+.header {
+  width: 100%;
+  text-align: center;
+  padding: 3em; }
+  .header h1 {
+    color: #ffffff;
+    font-family: SanFranciscoDisplayBold, Arial, Tahoma, Verdana;
+    font-size: 24pt;
+    margin-top: 30px;
+    line-height: 30px; }
+  .header h4 {
+    color: #ffffff; }
+  .header a {
+    color: #eeeeee; }
+
+.z-depth-1 {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
+
+.blue {
+  background-color: #3f51b5 !important; }
+
+.green {
+  background-color: #139f5a !important; }
+
+.red {
+  background-color: #dd4c40 !important; }
+
+.navbar {
+  background: transparent;
+  border: none; }
+  .navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top; }
+
+.navbar-default .navbar-nav {
+  padding-bottom: 20px; }
+
+.navbar-default .navbar-nav > li {
+  transition: background-color 0.3s;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex; }
+  .navbar-default .navbar-nav > li:hover {
+    background-color: #303f9f; }
+
+.navbar-default .navbar-nav > li > a {
+  position: relative;
+  color: #ffffff;
+  letter-spacing: -1px;
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 3em;
+  margin: 0 25px; }
+  @media screen and (max-width: 480px) {
+    .navbar-default .navbar-nav > li > a {
+      font-size: 2em;
+      margin: 0 20px; } }
+  .navbar-default .navbar-nav > li > a:hover {
+    color: #ffffff; }
+  .navbar-default .navbar-nav > li > a:visited {
+    color: #ffffff; }
+
+.nav > li > a {
+  padding-left: 0;
+  padding-right: 0; }
+
+.hero-text {
+  margin-bottom: 1em; }
+
+.sections {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-top: -40px; }
+  .sections .card {
+    margin-right: -15px;
+    margin-left: -15px;
+    background: #ffffff;
+    margin-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px; }
+
+.card .card-header {
+  min-height: 50px;
+  margin-bottom: 25px;
+  position: relative;
+  min-height: 1px;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: SanFranciscoDisplayBold, Arial, Tahoma, Verdana;
+  color: #000; }
+
+.card .card-body {
+  padding-bottom: 10px;
+  text-align: justify;
+  margin-left: 10%;
+  margin-right: 10%; }
+
+.card .card-footer {
+  margin-left: 10%;
+  margin-right: 10%;
+  color: #999; }
+
+.card .card-date {
+  padding: 0;
+  text-align: right; }
+  .card .card-date i {
+    margin-right: 5px; }
+
+.card .card-location {
+  padding: 0; }
+  .card .card-location i {
+    margin-right: 5px; }
+
+.bold {
+  font-weight: bold; }
+
+.bottom {
+  text-align: center; }
+  .bottom a {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: center;
+    padding: 0 0 30px 0;
+    font-size: 12pt;
+    font-weight: bold;
+    line-height: 18px;
+    font-family: SanFranciscoDisplayBold, Arial, Tahoma, Verdana;
+    color: #bbb;
+    padding-bottom: 30px;
+    cursor: pointer;
+    text-decoration: none; }
+    .bottom a:hover {
+      color: #303f9f; }
